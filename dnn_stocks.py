@@ -11,6 +11,7 @@ from sklearn.preprocessing import MinMaxScaler
 tf.logging.set_verbosity(tf.logging.INFO)
 
 def dnn_model_fn(features, labels, mode):
+  print(labels)
   """Model function for DNN."""
   # Initializers
   sigma = 1
